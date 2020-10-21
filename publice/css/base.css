@@ -1,0 +1,34 @@
+body,h1,h2,h3,h4,h5,h6,p,a,img,input,ul,dl,ol,dt,dd,li,figure,figcaption,button,main{ padding:0; margin:0;}
+ul,ol{ list-style:none;}
+input{ outline:none}
+img{ display:block;}
+a{ text-decoration:none; color:#999;}
+header,footer,nav,main,article,aside,section,figure,figcaption{ display:block;}
+html,body{ height:100%;}
+
+.r{float: right;}
+.l{float: left;}
+.o{overflow: hidden;}
+.w{
+  width:1226px;
+  margin: 0 auto;
+}
+
+
+/*---------------图标-----------------*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('../../font_kdk6pv4szgi/iconfont.eot');
+    src: url('../../font_kdk6pv4szgi/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../../font_kdk6pv4szgi/iconfont.woff2') format('woff2'),
+        url('../../font_kdk6pv4szgi/iconfont.woff') format('woff'),
+        url('../../font_kdk6pv4szgi/iconfont.ttf') format('truetype'),
+        url('../../font_kdk6pv4szgi/iconfont.svg#iconfont') format('svg');
+  }
+
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }

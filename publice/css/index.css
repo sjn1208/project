@@ -1,0 +1,431 @@
+/*---------------banner图 + 导航----------------*/
+header{
+    background: #f5f5f5;
+    height:160px;
+}
+.banner{
+    height:120px;
+    width:100%;
+}
+.nav{    
+    height:28px;
+    background: #f5f5f5;
+    padding-top: 12px;    
+}
+.city li{
+    color:#999;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.city li:nth-child(2){
+    color:#000;
+}
+.city li:nth-child(4){
+    margin-left: 10px;
+}
+.city li:nth-child(4) a{
+    color:#2d804c;
+}
+.service li{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.service li:nth-child(3) a{
+    color:#2d804c;
+}
+.service li span{
+    color:#2d804c;
+}
+/*----------------商品信息等-------------*/
+/*-------------第一块-----------*/
+.log{
+    padding-top: 30px;
+    padding-bottom:50px;
+}
+.search{
+    position: relative;
+}
+.search-case{
+    display: inline-block;
+    width:439px;
+    height:38px;
+    border:2px solid #2d804c;
+    margin-top: 38px;
+    margin-left: 151px;
+}
+.search-iron{
+    position: absolute;
+    display: inline-block;
+    background:#2d804c;
+    width:97px;
+    height:38px;
+    font-size:20px;
+    line-height: 38px;
+    text-align: center;
+    font-weight: bolder;
+    color:#fff;
+    border:2px solid #2d804c;  
+    top:38px;
+    left:594px;
+}
+.shortcut{
+    margin-left: 151px;
+    height:48px;
+}
+.shortcut li{
+    margin-right:10px;
+    margin-top:5px;
+}
+.shortcut li a{
+    border-right: 1px solid #999;
+    font-size:12px;
+    color:#999;
+    padding-right: 10px;
+}
+.shortcut li:nth-child(7) a{
+    border:none;
+}
+.shop{
+    display: inline-block;
+    height:32px;
+    width:138px;
+    background:#f8f8f8;
+    border:1px solid #e5e5e5;
+    font-size: 12px;
+    margin-top: 38px;
+}
+.shop span:nth-child(1){
+    font-size: 18px;
+    margin-right: 10px;
+    color:#2d804c;
+}
+.shop span:nth-child(2){
+    font-size: 12px;
+    margin-left: 10px;
+}
+/*--------------第二块-------------*/
+.product-list{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.20);
+}
+.classify{
+    width:234px;
+    height:169px;
+    background:#3e424c;
+}
+.classify li{
+    line-height: 42px;
+    width:100%;
+    font-size: 14px;
+    text-align: left;
+    margin: 0px 20px;
+    color:#fff;
+}
+.classify li span{
+    display: inline-block;
+    margin-left: 120px;
+    color:#9ea0a5;
+}
+.list-a{
+    width:959px;
+    height:458px;
+    background:#fff;
+    padding-left:31px;
+}
+.kind{
+    display: inline-block;
+    font-size: 16px;
+    line-height:22px;
+    color:#3e424c;
+    text-align: left;
+    padding-top: 27px;
+}
+.i-r{
+    font-size: 16px;
+    line-height:22px;
+    color:#c5c6c9;
+    padding: 27px 15px 0px 5px;
+}
+.list-a li{
+    padding-top: 27px;   
+}
+.list-a li a{
+    color:#666;
+    line-height: 20px;
+    font-size: 14px;
+    border-left: 2px solid #ccc;
+    padding: 0px 15px;
+}
+.vip-pic{
+    width:234px;
+    height:291px;
+    background:#42af6b;
+}
+.vip-pic img{
+    display: inline-block;
+    height:58px;
+    width:51px;
+    margin: 14px 91px;
+}
+.vip-pic p{
+    text-align: center;
+    line-height: 25px;
+    font-size:16px ;
+    color:#fff;
+}
+.vip-pic h1{
+    text-align: center;
+    line-height: 103px;
+    font-size: 80px;
+    color:#fff;
+    font-weight: bolder;
+    opacity: .5;
+}
+.vip-pic botton{
+    display: inline-block;
+    width:96px;
+    height:28px;
+    border-radius: 16px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    background:#fff;
+    color:#42af6b;
+    margin-left: 67px;
+}
+/*--------------第三块--------------*/
+.pic-a{
+    margin-top: 10px;
+}
+.pic-a img{
+    width:316px;
+    margin-left: 14px;
+    margin-bottom: 30px;
+}
+.pic-a .pic-a-first{
+    width:234px;
+    height:170px;
+    margin-left: 0;
+}
+/*----------------第四块--------------*/
+.note{
+    position: relative;
+    margin-bottom: 10px;
+}
+.note span:nth-child(1){
+    line-height: 26px;
+    font-size: 20px;
+}
+.note span:nth-child(2){
+    display: inline-block;
+    position: absolute;
+    left:1156px;
+}
+.note span:nth-child(2) a{
+    line-height: 17px;
+    font-size: 14px;
+}
+/*---------------第五块--------------------*/
+.pr-img{
+    margin-bottom:30px;
+}
+.pr-img div{
+    width:234px;
+    height:340px;
+    background:#42af6b;
+    position: relative;
+}
+.pr-img div h2{
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color:#fff;
+    font-family: PingFangSC-Regular;
+    font-weight: 100;
+    margin-top: 40px;
+}
+.line-c{
+    display: inline-block;
+    width:18px;
+    height:2px;
+    background:#fff;
+    position: absolute;
+    top:75px;
+    left:107px;
+}
+.pr-img div img{
+    width:34px;
+    height:52px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.pr-img div p{
+    line-height: 25px;
+    font-size: 16px;
+    opacity: 0.8;
+    color:#fff;
+    text-align: center;
+    margin-top:30px;
+}
+.timer{
+    display: inline-block;
+    background: #2F3430;
+    width:50px;
+    height:50px;
+    margin-top: 30px;
+    margin-left: 18px;
+    color:#fff;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.pr-img figure{
+    width:234px;
+    height:340px; 
+    background:#f7f7f7;
+    margin-left: 14px;
+}
+.pr-img figure img{
+    width:234px;
+    height:234px;
+}
+.pr-img figure figcaption h3{
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 100;
+}
+.pr-img figure figcaption p{
+    line-height: 17px;
+    font-size: 12px;
+    color:#ADADAD;
+    text-align: center;
+    margin-top: 5px;
+}
+.sale{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 17px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.sale i{
+    color:red;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.price{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 17px;
+    color:#ADADAD;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+/*--------------第七块---------------*/
+.note-a{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.note-a .tag{
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 860px;
+}
+.s-first{
+    margin-left: 0;
+}
+
+
+/*---------------页脚----------------*/
+footer{
+    width:100%;
+    height:340px;
+    background:#fafafa;
+}
+.guild{
+    margin-left: 130px;
+}
+.guild div{
+    width:217px;
+}
+.guild div span:nth-child(1){
+    display: inline-block;
+    width:34px;
+    height:34px;
+    border-radius: 50%;
+    background:#ccc;
+    color:#fff;
+    line-height: 34px;
+    font-size: 20px;
+    text-align: center;
+}
+.guild div span:nth-child(2){
+    line-height: 34px;
+    text-align: center;
+    font-size: 16px;
+}
+.guild div ul{
+    border-left:1px dotted #ccc;
+    margin-left: 17px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.guild div ul li a{
+    color:#666;
+}
+.blogroll{
+    width:100%;
+    margin-top: 5px;
+}
+.blogroll span{
+    margin-left: 332px;
+    
+}
+.blogroll li{
+    margin-left: 5px;
+}
+.blogroll li a{
+    color:#666;
+}
+.aboutUs{
+    width:100%;
+}
+.aboutUs li:nth-child(1){
+    margin-left: 546px;
+}
+.aboutUs li{
+    margin-left: 5px;
+}
+.aboutUs li a{
+    color:#666;
+    font-size: 13px;
+    border-left: 2px solid #666;
+    padding:0 10px;
+}
+.aboutUs li:nth-child(1) a{
+    border-left: none;
+}
+footer p{
+    width:100%;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.cszz{
+    width:54px;
+    height:14px;
+    margin:5px auto;
+}
+.pic{
+    width:125px;
+    height:56px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border:1px solid #666;
+}
+.first{
+    margin-left: 400px;
+}
